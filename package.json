@@ -2,7 +2,8 @@
   "name": "todoapp-buildtool",
   "version": "1.0.0",
   "description": "Javascript build tools and bundlers are an important part of the web developers' tool kit. These tools allow the developer to take their code and prepare it for production. In this assignment, we will take a simple app, build it, and deploy it to production with 2 tools. First with Webpack and second with a bundler of your choice.",
-  "main": "index.js",
+  "main": "src/index.html",
+  "source": "src/index.html",
   "dependencies": {},
   "devDependencies": {
     "css-loader": "^6.7.0",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "start": "parcel",
-    "build": "parcel build src/index.html"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
